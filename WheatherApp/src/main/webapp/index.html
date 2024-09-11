@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Weather site</title>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- post mean sending the data -->
+<body>
+	<div style="color: white; text-align: center;" id="htmldiv">
+		<div id="htmlimgdiv">
+			<img src="images/weather-logo.png"
+				style="height: auto; width: auto; filter: drop-shadow(10px 10px 10px black);" class="imghtml">
+		</div>
+		
+		<div id="htmldatadiv">
+			<h1>Welcome to our Weather site....</h1>
+			<h1>To Know your weather area </h1>
+			
+			<form action="MyServlet1" method="post" class="searchInput">
+				<input placeholder="enter city name" id="searchInput"
+					name="cityName">
+				<button id="searchButton">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
